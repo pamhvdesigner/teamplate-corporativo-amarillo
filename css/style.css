@@ -1,0 +1,300 @@
+/* GENERALES */
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV */
+
+nav {
+    background-color: #F8F9FB;
+}
+
+a.nav-link {
+    padding: 40px 27px !important;
+    border-left: 1px solid #a9a9a9;
+}
+
+a.nav-link:hover {
+    background-color: #A6A6A6 !important;
+}
+
+.nav-link.active {
+    background-color: #E6B707 !important;
+    color: #fff !important;
+}
+
+
+.border-final {
+    border-right: 1px solid #a9a9a9;
+}
+
+/*HEADER*/
+
+/* CREATE */
+.create {
+    background-color: #E6B707;
+    background-image: url(../imagenes/separador1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #fff;
+    /* padding: 40px 0;*/
+}
+
+.create p {
+    font-size: 17px;
+}
+
+/* FEATURES */
+
+.features {
+    background-image: url(../imagenes/separador2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.features img {
+    width: 50%;
+}
+.features div p {
+    color: #a9a9a9;
+    font-size: 17px;
+}
+
+/* WORK */
+
+.work {
+    background-image: url(../imagenes/separador3.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: #F1F3EE;
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+
+.work h4 {
+    background-color: #313332;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.work p {
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.active {
+    background-color: transparent;
+}
+
+.recuadro {
+    background-color: #a9a9a9;
+    padding: 70px 0;
+    margin: 0 10px;
+}
+
+/* STORY */
+
+.story {
+    background-image: url(../imagenes/separador4.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 115px;
+    padding-bottom: 150px;
+}
+
+.story h4 {
+    background-color: #E6B707;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 21px;
+}
+
+.story p {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.opacy {
+    opacity: 0.5;
+}
+
+.opacy:hover {
+    opacity: 1;
+}
+
+/* GRAFICAS */
+
+.grafica {
+    background-color: #E6B707;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #313332;
+    color: #fff;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer h3 {
+    font-size: 28px;
+}
+
+footer li {
+    font-weight: 400;
+}
+
+footer a {
+    color: #F1F3EE;
+}
+
+footer a:hover {
+    color: #E6B707;
+}
+
+.contacto {
+    margin-left: 90px;
+}
+
+.flechas {
+    list-style: none;
+    padding-left: 0;
+}
+
+.flechas li {
+    font-size: 17px;
+    line-height: 2;
+    background-image: url('../imagenes/arrow_bullet_02.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 17px;
+    padding-left: 30px;
+    border-bottom: #F1F3EE solid 1px;
+}
+
+.final {
+    border-bottom: transparent !important;
+}
+
+.links {
+    padding-left: 20px;
+}
+.get {
+    padding-left: 50px;
+}
+
+.touch {
+    list-style: none;
+    padding-left: 0;
+}
+
+.touch li {
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.casa {
+    background-image: url('../imagenes/casa_01.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    padding-left: 50px;
+}
+
+.casa p {
+    margin-bottom: 3px;
+}
+
+.telefono {
+    background-image: url('../imagenes/telefono_01.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    padding-left: 50px;
+}
+
+.telefono p {
+    margin-bottom: 3px;
+}
+
+.envelope {
+    background-image: url('../imagenes/envelope_01.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    padding-left: 50px;
+}
+
+/* FANCYBOX*/
+.fancybox__caption {
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+    .contacto {
+        margin-left: 40px;
+    }
+    .get {
+        padding-left: 20px;
+    }
+    .links {
+        padding-left: 10px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+    .features {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .col-md-12.col-lg-3 {
+        padding-bottom: 10px;
+    }
+    .col-md-6.col-lg-2 {
+        padding-bottom: 50px;
+    }
+    h4 {
+        padding-top: 0;
+    }
+    footer p {
+        font-size: 21px;
+    }
+    .get {
+        padding-left: 0;
+    }
+}
